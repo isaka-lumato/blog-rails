@@ -46,7 +46,8 @@ rails s
 
 ### Test
 to run tests use bundle exec before like;
-```bundle exec rspec spec
+```
+bundle exec rspec spec
 ```
 
 ## Authors
