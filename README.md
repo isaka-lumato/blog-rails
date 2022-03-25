@@ -45,14 +45,13 @@ rails s
 ```
 
 ### Test
-
-```sh
-rake spec
+to run tests use bundle exec before like;
+```bundle exec rspec spec
 ```
 
 ## Authors
 
-👤 **Yahya EL Ganayni**
+👤 **Isaka Lumato**
 
 - GitHub: [@isaacLumato](https://github.com/isaka-lumato)
 - Twitter: [@isaacLumato](https://twitter.com/@lumatoisaac)
