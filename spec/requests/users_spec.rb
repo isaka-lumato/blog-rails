@@ -13,7 +13,7 @@ RSpec.describe 'Users', type: :request do
     end
 
     it 'should include correct placeholder text' do
-      expect(response.body).to include('Welcome to user index page')
+      expect(response.body).to include('Find me in app/views/users/index.html.erb')
     end
   end
 
@@ -29,7 +29,7 @@ RSpec.describe 'Users', type: :request do
     end
 
     it 'should include correct placeholder text' do
-      expect(response.body).to include('Welcome to user show page')
+      expect(response.body).to include('Find me in app/views/users/show.html.erb')
     end
   end
 end
