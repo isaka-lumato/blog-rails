@@ -1,24 +1,71 @@
-# README
+# The Blog app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog website that shows a list of posts and empower readers to interact with them by adding comments and liking posts.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
+- PostgreSQL
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://gorails.com/)
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+- Make sure you have Ruby on Rails set up properly on your computer
+- Clone or download this repo on your machine
+- Enter project directory
 
-* Deployment instructions
+### Development Database
 
-* ...
+```sh
+# Create user
+sudo -u postgres createuser blog -s
+
+# Create the database
+rake db:create
+```
+
+### Install
+
+```sh
+bundle install
+```
+
+### Run
+
+```sh
+rails s
+```
+
+### Test
+to run tests use bundle exec before like;
+```
+bundle exec rspec spec
+```
+
+## Authors
+
+👤 **Isaka Lumato**
+
+- GitHub: [@isaacLumato](https://github.com/isaka-lumato)
+- Twitter: [@isaacLumato](https://twitter.com/@lumatoisaac)
+- LinkedIn: [isaacLumato](https://www.linkedin.com/in/isaac-lumato/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+
+## License
+
+[MIT](./LICENSE)
